@@ -44,9 +44,8 @@ namespace AlwaysBloodMoon
                 Main.bloodMoon = false;
             }
 
-            if (Main.time >= 0 && Main.time < 2 && Main.dayTime == true && saidBloodCounter == false)
+            if (AlwaysBloodMoonConfig.Instance.CountTheAmount == true && Main.time >= 0 && Main.time < 2 && Main.dayTime == true && saidBloodCounter == false)
             {
-
                 ABM.bloodMoonCounter++;
                 Talk(Language.GetTextValue("Mods.AlwaysBloodMoon.Chat.CountFront") + " " + ABM.bloodMoonCounter.ToString() + " " + Language.GetTextValue("Mods.AlwaysBloodMoon.Chat.CountBlood") + " " + Main.worldName + " " + Language.GetTextValue("Mods.AlwaysBloodMoon.Chat.CountBack"), Color.OrangeRed);
                 saidBloodCounter = true;
@@ -66,7 +65,7 @@ namespace AlwaysBloodMoon
                     Main.eclipse = false;
                 }
 
-                if (Main.time >= 0 && Main.time < 2 && Main.dayTime == false && saidSolarCounter == false)
+                if (AlwaysBloodMoonConfig.Instance.CountTheAmount == true && Main.time >= 0 && Main.time < 2 && Main.dayTime == false && saidSolarCounter == false)
                 {
                     ABM.solarEclipseCounter++;
                     Talk(Language.GetTextValue("Mods.AlwaysBloodMoon.Chat.CountFront") + " " + ABM.solarEclipseCounter.ToString() + " " + Language.GetTextValue("Mods.AlwaysBloodMoon.Chat.CountSolar") + " " + Main.worldName + " " + Language.GetTextValue("Mods.AlwaysBloodMoon.Chat.CountBack"), Color.DarkGoldenrod);
