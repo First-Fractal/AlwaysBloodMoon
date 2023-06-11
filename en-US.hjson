@@ -1,0 +1,14 @@
+
+Mods: {
+	AlwaysBloodMoon: {
+		Config: {
+			Label: Config
+			Header.GeneralOptions: General Options
+
+			AlwaysSolarEclipse: {
+				Label: Always Solar Eclipse?
+				Tooltip: '''If true, then there will always be a Solar Eclipse after one mech have been defeated.
+				This does stack with the Blood Moons.'''
+			}
+	}
+}
