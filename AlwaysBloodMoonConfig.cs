@@ -17,5 +17,10 @@ namespace AlwaysBloodMoon
         [Tooltip("$Mods.AlwaysBloodMoon.Config.AlwaysSolarEclipse.Tooltip")]
         [DefaultValue(false)]
         public bool AlwaysSolarEclipse;
+
+        [Label("$Mods.AlwaysBloodMoon.Config.CountTheAmount.Label")]
+        [Tooltip("$Mods.AlwaysBloodMoon.Config.CountTheAmount.Tooltip")]
+        [DefaultValue(true)]
+        public bool CountTheAmount;
     }
 }

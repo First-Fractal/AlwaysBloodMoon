@@ -10,5 +10,18 @@ Mods: {
 				Tooltip: '''If true, then there will always be a Solar Eclipse after one mech have been defeated.
 				This does stack with the Blood Moons.'''
 			}
+
+			CountTheAmount: {
+				Label: Count the Blood Moons?
+				Tooltip: If true, then it will count the amount of Blood Moons/Solar eclipse that has happened in this world.
+			}
+		}
+
+		Chat: {
+			CountFront: There has been 
+			CountBlood: Blood Moons in 
+			CountSolar: Solar Eclipses in 
+			CountBack: so far.
+		}
 	}
 }
