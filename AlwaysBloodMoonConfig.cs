@@ -22,5 +22,10 @@ namespace AlwaysBloodMoon
         [Tooltip("$Mods.AlwaysBloodMoon.Config.CountTheAmount.Tooltip")]
         [DefaultValue(true)]
         public bool CountTheAmount;
+
+        [Label("$Mods.AlwaysBloodMoon.Config.NPCspawnAtNight.Label")]
+        [Tooltip("$Mods.AlwaysBloodMoon.Config.NPCspawnAtNight.Tooltip")]
+        [DefaultValue(true)]
+        public bool NPCspawnAtNight;
     }
 }

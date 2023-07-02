@@ -3,9 +3,8 @@ using Terraria.ID;
 using Terraria.Chat;
 using Terraria.ModLoader;
 using Terraria.Localization;
-using Microsoft.Xna.Framework;
-using System.Security.Cryptography.X509Certificates;
 using Terraria.ModLoader.IO;
+using Microsoft.Xna.Framework;
 
 namespace AlwaysBloodMoon
 {
@@ -35,6 +34,7 @@ namespace AlwaysBloodMoon
 
         public override void PreUpdateWorld()
         {
+            StolenTerrariaCode.UpdateTime_SpawnTownNPCs();
             if (Main.dayTime == false)
             {
                 Main.bloodMoon = true;

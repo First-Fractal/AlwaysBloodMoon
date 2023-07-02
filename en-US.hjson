@@ -15,6 +15,11 @@ Mods: {
 				Label: Count the Blood Moons?
 				Tooltip: If true, then it will count the amount of Blood Moons/Solar eclipse that has happened in this world.
 			}
+
+			NPCspawnAtNight: {
+				Label: Town NPC Spawn at Night Time?
+				Tooltip: If true, then town npcs will spawn during night time, including the blood moon.
+			}
 		}
 
 		Chat: {
