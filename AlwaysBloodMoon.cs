@@ -34,7 +34,12 @@ namespace AlwaysBloodMoon
 
         public override void PreUpdateWorld()
         {
-            StolenTerrariaCode.UpdateTime_SpawnTownNPCs();
+            if (AlwaysBloodMoonConfig.Instance.NPCspawnAtNight)
+            {
+                StolenTerrariaCode.UpdateTime_SpawnTownNPCs();
+            }
+            
+            
             if (Main.dayTime == false)
             {
                 Main.bloodMoon = true;
