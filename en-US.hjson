@@ -1,4 +1,3 @@
-
 Mods: {
 	AlwaysBloodMoon: {
 		Config: {
@@ -23,10 +22,31 @@ Mods: {
 		}
 
 		Chat: {
-			CountFront: There has been 
-			CountBlood: Blood Moons in 
-			CountSolar: Solar Eclipses in 
+			CountFront: There has been
+			CountBlood: Blood Moons in
+			CountSolar: Solar Eclipses in
 			CountBack: so far.
+		}
+
+		Configs: {
+			AlwaysBloodMoonConfig: {
+				NPCspawnAtNight: {
+					Tooltip: "{$Mods.AlwaysBloodMoon.Config.NPCspawnAtNight.Tooltip}"
+					Label: "{$Mods.AlwaysBloodMoon.Config.NPCspawnAtNight.Label}"
+				}
+
+				CountTheAmount: {
+					Tooltip: "{$Mods.AlwaysBloodMoon.Config.CountTheAmount.Tooltip}"
+					Label: "{$Mods.AlwaysBloodMoon.Config.CountTheAmount.Label}"
+				}
+
+				AlwaysSolarEclipse: {
+					Tooltip: "{$Mods.AlwaysBloodMoon.Config.AlwaysSolarEclipse.Tooltip}"
+					Label: "{$Mods.AlwaysBloodMoon.Config.AlwaysSolarEclipse.Label}"
+				}
+
+				DisplayName: "{$Mods.AlwaysBloodMoon.Config.Label}"
+			}
 		}
 	}
 }

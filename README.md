@@ -11,6 +11,8 @@ If you are a Terraria Content Creator that is going to use this mod, please give
 [Download it here](https://steamcommunity.com/sharedfiles/filedetails/?id=2988441197)
 
 # Change Log
+v 1.2:
+Ported to 1.4.4.
 v 1.1: 
 Added in a config option to allow town npcs to spawn during night time.
 v 1.0: Relased the mod.
